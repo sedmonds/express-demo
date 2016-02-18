@@ -1,0 +1,71 @@
+/* landing page */
+
+/*#splash {*/
+
+/*  background: url("https://images.unsplash.com/photo-1414016642750-7fdd78dc33d9?ixlib=rb-0.3.5&q=80&fm=jpg");*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*  font-family: 'Oswald', sans-serif;*/
+/*  color: #57594c;*/
+/*  font-weight: 300;*/
+/*  width: 100%;*/
+/*    height: 100%;*/
+/*  -webkit-box-sizing: content-box;*/
+/*     -moz-box-sizing: content-box;*/
+/*          box-sizing: content-box;*/
+
+/*}*/
+
+
+html {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+#splash {
+  background-image: url('https://images.unsplash.com/photo-1414016642750-7fdd78dc33d9?ixlib=rb-0.3.5&q=80&fm=jpg') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  width: 100%;
+  height: 100%;
+
+
+
+}
+
+h1 {
+
+    font-size: 6em;
+    text-transform: capitalize;
+    text-shadow: black -1px 1px 1px;
+}
+
+
+#splash #content {
+  text-align: center;
+  padding-top: 225px;
+  color: white;
+}
+
+/* current styles */
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#delete-form {
+    display: inline;
+}
